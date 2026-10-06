@@ -1,0 +1,47 @@
+name: ecap
+description: "Lek Ende Enate Care, Ende Abate Protect."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.8.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # =========================================================
+  # Utilities
+  # =========================================================
+  crypto: ^3.0.3
+  cupertino_icons: ^1.0.8
+
+  # =========================================================
+  # State Management
+  # =========================================================
+  flutter_riverpod: ^2.5.1
+
+  # =========================================================
+  # Navigation
+  # =========================================================
+  go_router: ^14.2.0
+
+  # =========================================================
+  # Database
+  # =========================================================
+  sqflite: ^2.3.3
+  sqflite_common_ffi: ^2.3.3
+  path: ^1.9.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/logo.png
